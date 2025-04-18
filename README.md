@@ -1,4 +1,3 @@
-# Student-Performance-Prediction
 # Student Performance Prediction
 
 ## Overview
@@ -81,4 +80,6 @@ python run_pipeline.py --data_path data/Student\ Performance\ Prediction.csv
 MIT License
 
 
+![Screenshot 2025-04-18 153348](https://github.com/user-attachments/assets/20110dde-87a3-4af2-a54b-c05bda0a8f19)
 
+![Screenshot 2025-04-18 155218](https://github.com/user-attachments/assets/b8075fb2-19ea-4194-8bfe-d9a5feed86d4)

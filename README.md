@@ -18,43 +18,6 @@ A machine learning pipeline for predicting whether a student will pass or fail a
 - matplotlib  
 - seaborn
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### Running the Pipeline
-1. **Clone the repository**
-   ```bash
-git clone https://github.com/yourusername/student-performance-prediction.git
-cd student-performance-prediction
-```
-2. **Prepare the data**
-   - Place `Student Performance Prediction.csv` in the `data/` directory.
-3. **Execute**
-   ```bash
-python run_pipeline.py --data_path data/Student\ Performance\ Prediction.csv
-```
-4. **View Results**
-   - Metrics printed to console  
-   - Confusion matrix heatmap saved to `output/confusion_matrix.png`  
-   - Feature importance plot saved to `output/feature_importance.png`
-
-## File Structure
-```
-├── data/                         # Raw and processed datasets
-│   └── Student Performance Prediction.csv
-├── notebooks/                    # EDA and prototyping notebooks
-│   └── exploratory_analysis.ipynb
-├── src/                          # Source code modules
-│   ├── preprocessing.py          # Data cleaning and encoding
-│   ├── modeling.py               # Model training and evaluation
-│   └── visualize.py              # Plotting utilities
-├── output/                       # Generated figures and reports
-├── run_pipeline.py              # Main entrypoint script
-├── requirements.txt             # Python package dependencies
-└── README.md                    # Project overview and instructions
-```
-
 ## Methodology
 1. **Exploratory Data Analysis**: Examine distributions, correlations, and class balance.  
 2. **Preprocessing**: Encode categorical variables, create binary target, inject noise.  
